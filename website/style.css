@@ -5,14 +5,20 @@ body {
   height: 100vh;
 }
 
+.headerfooter {
+  background-color: #000000;
+  color: aliceblue;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000;
   padding: 1em;
-  position: fixed;
-  width: 100%;
+  top: 0;
 }
 
 #name {
@@ -30,46 +36,74 @@ header {
   border-radius: 5px;
 }
 
-#inhalt {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+.grid-container {
+  display: grid;
+  grid-template-columns: 15% 85%; 
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "GridL GridR";
+  height: 73%;
+}
+
+#GridL {
+  grid-area: GridL;
+  padding: 0;
+}
+
+#GridR {
+  grid-area: GridR;
+  height: auto;
+  background-color: antiquewhite;
   padding: 3em;
+  text-align: left;
 }
 
 footer {
-  background-color: #000000;
-  color: aliceblue;
   text-align: center;
   padding: 10px;
-  position: fixed;
-  width: 100%;
   bottom: 0;
+  z-index: 10000;
 }
 
 #title {
   text-align: center;
-  background-color: aliceblue;
-  color: #343638;
+  background-color: #343638;
+  color: aliceblue;
   padding: 2em;
 }
 
-h1 {
+#title h1 {
   font-size: 48px;
   margin-bottom: 10px;
 }
 
 p {
   font-size: 18px;
-  color: #555;
-}
-
-h2 {
-  margin-top: 20px;
-  font-size: 24px;
-  color: #343638;
+  color: white;
 }
 
 a {
   text-decoration: none;
 }
+
+.menuelement h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #343638;
+}
+
+#menu {
+  height: 100%;
+  text-decoration: none;
+  font-family: Geneva;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+  background-color: aliceblue;
+}
+
+.menuelement {
+  cursor: pointer;
+}
+
