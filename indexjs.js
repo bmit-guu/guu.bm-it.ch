@@ -50,3 +50,15 @@ function uebermich() {
   
     contentContainer.innerHTML = contentHTML;
   }
+
+  function Kontakt() {
+    var contentContainer = document.getElementById("GridR");
+
+    var contentHTML = `
+      <p style="color: #000000; font-size: 24px;">
+      ...
+      </p>
+    `;
+  
+    contentContainer.innerHTML = contentHTML;
+  }

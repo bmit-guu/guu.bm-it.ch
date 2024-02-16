@@ -42,7 +42,7 @@ header {
   grid-template-rows: 1fr;
   grid-template-areas:
     "GridL GridR";
-  height: 73%;
+  height: 72%;
 }
 
 #GridL {
