@@ -2,7 +2,7 @@ function uebermich() {
     var contentContainer = document.getElementById("GridR");
   
     var contentHTML = `
-      <h1 style="font-size:54px;">Über mich<h1><br>
+      <h1 style="font-size:54px; color: #000000">Über mich<h1><br>
       
       <p style="color: #000000; font-size: 24px;">
       <b>Name Nachname: </b>Ulas Güvenç<br><br>
@@ -25,7 +25,7 @@ function uebermich() {
     var contentContainer = document.getElementById("GridR");
 
     var contentHTML = `
-      <h1 style="font-size:54px;">Hobbys<h1><br><br>
+      <h1 style="font-size:54px; color: #000000">Hobbys<h1><br><br>
 
       <p style="color: #000000; font-size: 24px;">
       Spazieren gehen, Zocken, Im Internet surfen
@@ -40,10 +40,10 @@ function uebermich() {
     var contentContainer = document.getElementById("GridR");
 
     var contentHTML = `
-      <h1 style="font-size:54px;">Zertifikate<h1><br><br>
+      <h1 style="font-size:54px; color: #000000">Zertifikate<h1><br><br>
 
       <p style="color: #000000; font-size: 24px;">
-      Wird hinzugefügt...
+      ...
       </p>
 
     `;

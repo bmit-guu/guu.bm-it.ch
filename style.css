@@ -32,7 +32,7 @@ header {
   padding: 10px;
   margin: 0 2em 0 0;
   background-color: #343638;
-  text-shadow: 1px 1px 1px #000000;
+  text-shadow: 1px 1px 1px slategray;
   border-radius: 5px;
 }
 
@@ -48,12 +48,13 @@ header {
 #GridL {
   grid-area: GridL;
   padding: 0;
+  border-right: #343638 solid 0.2rem;
 }
 
 #GridR {
   grid-area: GridR;
   height: auto;
-  background-color: antiquewhite;
+  background-color: gainsboro;
   padding: 3em;
   text-align: left;
 }
@@ -68,42 +69,41 @@ footer {
 #title {
   text-align: center;
   background-color: #343638;
-  color: aliceblue;
+  color: ivory;
   padding: 2em;
+  border-bottom: #343638 solid 0.2rem;
 }
 
 #title h1 {
   font-size: 48px;
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 p {
   font-size: 18px;
-  color: white;
+  color: ivory;
 }
 
 a {
   text-decoration: none;
 }
 
-.menuelement h2 {
+.menuelement {
   margin-top: 20px;
-  font-size: 24px;
-  color: #343638;
+  font-size: 20px;
+  color: floralwhite;
+  cursor: pointer;
 }
 
 #menu {
   height: 100%;
   text-decoration: none;
-  font-family: Geneva;
+  font-family: Verdana;
   list-style-type: none;
   text-align: center;
   margin: 0;
   padding: 1em;
   background-color: aliceblue;
+  text-shadow: black 2px 3px 4px;
 }
-
-.menuelement {
-  cursor: pointer;
-}
-
