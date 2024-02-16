@@ -3,6 +3,8 @@ body {
   padding: 0;
   font-family: 'Arial', sans-serif;
   height: 100vh;
+  background-size: contain;
+  background-position: center center;
 }
 
 .headerfooter {
@@ -106,4 +108,13 @@ a {
   padding: 1em;
   background-color: aliceblue;
   text-shadow: black 2px 3px 4px;
+}
+
+.menuelement h2 {
+  padding: 1.2em;
+}
+
+.menuelement h2:hover {
+  background-color: #474747;
+  color: gainsboro;
 }
