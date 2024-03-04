@@ -3,7 +3,7 @@ function uebermich() {
   
     var contentHTML = `
       <h1 style="font-size:54px; color: #000000">Über mich<h1><br>
-      
+      <img src="./portfolio.svg">
       <p style="color: #000000; font-size: 24px;">
       <b>Name Nachname: </b>Ulas Güvenç<br><br>
       <b>Geburtsdatum: </b>8. Juli 2003<br><br>
@@ -51,12 +51,14 @@ function uebermich() {
     contentContainer.innerHTML = contentHTML;
   }
 
-  function Kontakt() {
+  function impressum() {
     var contentContainer = document.getElementById("GridR");
 
     var contentHTML = `
-      <p style="color: #000000; font-size: 24px;">
-      ...
+      <p style="color: #000000; font-size: 18px; font-weight: bold;">
+      Ulas Guevenc<br>
+      E-Mail:ulasguevenc@gmail.com<br>
+      Tel.: +41 76 671 12 23<br>
       </p>
     `;
   
