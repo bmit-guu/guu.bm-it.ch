@@ -56,7 +56,7 @@ function uebermich() {
 
     var contentHTML = `
       <p style="color: #000000; font-size: 18px; font-weight: bold;">
-      Ulas Guevenc<br>
+      Ulas Güvenc<br>
       E-Mail:ulasguevenc@gmail.com<br>
       Tel.: +41 76 671 12 23<br>
       </p>
