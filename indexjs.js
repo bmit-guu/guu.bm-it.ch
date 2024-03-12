@@ -3,7 +3,7 @@ function uebermich() {
   
     var contentHTML = `
     <h1 class="inhaltsTitel">Über mich<h1><br>
-    <img style="max-width: 50%; height: auto;" src="./portfolio.svg">
+    <img style="min-width: 14%; max-width: 50%; height: auto;" src="./portfolio.svg">
     <p class="inhalt">
     <b>Name, Vorname: </b>Güvenç Ulas<br><br>
     <b>Geburtsdatum: </b>8. Juli 2003<br><br>
@@ -27,9 +27,17 @@ function uebermich() {
     var contentHTML = `
       <h1 style="font-size:54px; color: #000000">Hobbys<h1><br><br>
 
-      <p style="color: #000000; font-size: 24px;">
-      Spazieren gehen, Zocken, Im Internet surfen
-      </p>
+      <div style="color: #000000; font-size: 24px;">
+      <h2>Spazieren</h2><br>
+      Ich gehe gerne in Wäldern und an Ufern spazieren.<br><br>
+      <h2>Zocken</h2><br>
+      Ich interessiere mich sehr für verschiedene Spielarten und für die Gaming-Industrie. Vorzugsweise <br>
+      spiele ich Games, die eigenartiges Spieldesign und komplexe Spielmechaniken haben. Ich interessiere mich <br>
+      auch für die Softwareseite der Spielen. Ich beobachte manchmal deren Code und mache Veränderungen und <br>
+      Umstellungen, um deren Funktionsweise kennen zu lernen.<br><br>
+      <h2>Im Internet surfen</h2><br>
+      Im Internet kann ich viele unterhaltende Sachen finden. Meine Lieblingswebseiten sind YouTube und Wikipedia.
+      </div>
 
     `;
   
@@ -43,9 +51,9 @@ function uebermich() {
       <h1 style="font-size:54px; color: #000000">Zertifikate<h1><br><br>
 
       <p style="color: #000000; font-size: 24px;">
-      ...
+      <a href="./sololearn_python.pdf">Sololearn-Introduction to Python (PDF)</a><br>
+      <a href="./sololearn_csharp.pdf">Sololearn-Introduction to C# (PDF)</a>
       </p>
-
     `;
   
     contentContainer.innerHTML = contentHTML;
@@ -55,7 +63,7 @@ function uebermich() {
     var contentContainer = document.getElementById("GridR");
 
     var contentHTML = `
-      <p style="color: #000000; font-size: 18px; font-weight: bold;">
+      <p style="color: #000000; font-size: 12px; font-weight: bold;">
       Ulas Güvenc<br>
       E-Mail:ulasguevenc@gmail.com<br>
       Tel.: +41 76 671 12 23<br>

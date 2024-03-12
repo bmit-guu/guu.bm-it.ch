@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <script src="./indexjs.js"></script>
   </head>
 
-  <body>
+  <body id="body">
     <header class="headerfooter">
       <div>
         <a id="name" href="./index.html">ulasguevenc</a>
@@ -35,29 +35,12 @@
           <li class="menuelement" id="zertifikate">
             <h2 onclick="zertifikate()">Zertifikate</h2>
           </li>
-          <li class="menuelement" id="impressum">
-            <h2 onclick="impressum()">Impressum</h2>
-          </li>
         </ul>
       </div>
 
       <div id="GridR">
-        <h1 class="inhaltsTitel">Über mich<h1><br>
-          <img style="max-width: 50%; height: auto;" src="./portfolio.svg">
-          <p class="inhalt">
-          <b>Name, Vorname: </b>Güvenç Ulas<br><br>
-          <b>Geburtsdatum: </b>8. Juli 2003<br><br>
-          <b>Ausbildung:</b><br>
-          2009-2016: Primar- und Oberstufenschule (Türkei)<br>
-          2016-2020: Sekundarschule<br>
-          2020-2021: 10. Schuljahr, KSB Aarau<br>
-          2021-2021: Praktikum als Konstrukteur EFZ<br>
-          2022-2022: Vorlehre ICT-Fachmann EFZ<br>
-          2022-2023: Vorlehre Informatiker EFZ<br>
-          2023-heute: 1. Lehrjahr als Informatiker EFZ, Applikationsentwicklung<br>
-          </p>
+        <script>document.addEventListener("DOMContentLoaded", uebermich)</script>
       </div>
-
     </div>
     
     <footer class="headerfooter">
